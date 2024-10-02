@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Dashboard Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">PLACEABLE</div>
+      <ul class="nav-links">
+        <li><a href="EmployeeHome.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="EmployeeLogin.html">Logout</a></li>
+      </ul>
+      <ul class="user">
+        <li class="username"><span>Username</span></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="main-content">
+      <div class="job-listings">
+        <h2>Jobs / Internships</h2>
+
+        <div class="job-card">
+          <div class="job-info">
+            <h3>Data Analyst Internship</h3>
+            <p>2 months internship program on...</p> <br/>
+            <button class="details-btn">Detailed view</button>
+          </div>
+          <div class="job-status">
+            <div class="status">
+                <span class="approved">Approved</span>
+                <span class="pending">Pending</span>
+                <span class="rejected">Rejected</span>
+            </div>
+            <div class="status-count">
+              <span>10</span>
+              <span>17</span>
+              <span>5</span>
+            </div>
+            <p class="deadline">Deadline: 24 November 2024</p>
+          </div>
+        </div>
+
+        <div class="job-card">
+          <div class="job-info">
+            <h3>Data Science Recruitment</h3>
+            <p>Data scientist role with CTC of 15...</p> <br/>
+            <button class="details-btn">Detailed view</button>
+          </div>
+          <div class="job-status">
+            <div class="status">
+                <span class="approved">Approved</span>
+                <span class="pending">Pending</span>
+                <span class="rejected">Rejected</span>
+            </div>
+            <div class="status-count">
+              <span>10</span>
+              <span>17</span>
+              <span>5</span>
+            </div>
+            <p class="deadline">Deadline: 17 December 2024</p>
+          </div>
+        </div>
+
+        <div class="post-job">
+          <button class="post-job-btn">Post a new Job +</button>
+        </div>
+      </div>
+
+      <div class="sidebar">
+        <div class="profile">
+          <div class="avatar"></div>
+          <div class="profile-info">
+            <h3>Full Name</h3>
+            <p>user@gmail.com</p>
+            <p>Company Name</p>
+          </div>
+        </div>
+
+        <div class="todo-list">
+          <h3>To do list</h3>
+          <ul>
+            <li>Pending verification</li>
+            <li>Data Analyst Internship at an X company</li>
+            <li>Pending verification</li>
+            <li>Data Science Recruitment</li>
+          </ul>
+          <a href="#">See more</a>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
